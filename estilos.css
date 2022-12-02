@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
 
+<<<<<<< Updated upstream
 .nav-flex-row {
     display: flex;
     flex-direction: row;
@@ -83,3 +84,48 @@ a.link-to-book:hover {
     font-size: 1.8em;
     text-transform: uppercase;
 }
+=======
+
+body{
+    background-color: grey;
+}
+
+
+header{
+    background-color: #fff;
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.6em;
+    @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
+
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+}
+
+header nav{
+    display:  flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: blueviolet;
+}
+>>>>>>> Stashed changes
