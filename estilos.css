@@ -1,39 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
 
-#menu {
+.nav-flex-row {
     display: flex;
-    align-items: center;
-  }
-
-  .menu_bar{
-    list-style: none; 
-    display: flex; 
- }
-
-font-face{
-  font-family: Menu;
-src: url(PatuaOne-Regular.ttf);
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 170%;
+    padding: 0;
 }
 
-  .menu_link {
-      color: #FFFFFF;
-      font-size: 28px;
-      font-weight: 400;
-      font-family: menu;
-      text-decoration: none;
-      padding: 9px 24px; 
-      display:left ;
-      
-    }
-    
-    body{
-        background: url(imagen/Pasta.png);   
-    } 
+.nav-flex-row li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px 15px;
+}
 
-    #instagram{
-      align-items: right;
-      padding-top: 200px;
-      background-size:25px 50px;
-      display:right ;
-      position: relative;
-      padding-right: 200px;    
-  }
+.nav-flex-row li a {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #ffffff;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.section-intro {
+    height: 820px;
+    background-image: url(imagen/Pasta.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-intro h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 9em;
+    font-weight: 500;
+    font-family:fuente oranienbaum;
+}
+
+@font-face{
+    font-family: fuente oranienbaum;
+    scr:url( Oranienbaum-Regular.ttf)
+}
+
+.section-intro header {
+    display: flex;
+    flex: 4;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-to-book-wrapper {
+    flex: 1;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    background-color: #f3f3f3c0;
+    padding: 50px 30px;
+}
+
+.link-to-book {
+    color: #ffffff;
+    display: block;
+    border: 2px solid #ffffff;
+    padding: 5px 10px;
+}
+
+a.link-to-book:hover {
+    background-color: #ffffff;
+    color: #95999e;
+    text-decoration: none;
+}
+
+.about-section p,
+.about-section h3 {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+.section1{
+    display: flex;
+    align-items: center;
+    background-color: #f3f3f3c0;
+    padding: 50px 30px;
+}
+
